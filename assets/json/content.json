@@ -1,0 +1,7 @@
+{
+  "teas": [
+    {"name": "Sencha", "type": "Green"},
+    {"name": "Darjeeling", "type": "Black"},
+    {"name": "Chamomile", "type": "Herbal"}
+  ]
+}
