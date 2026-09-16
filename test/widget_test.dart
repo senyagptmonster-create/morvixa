@@ -4,7 +4,7 @@ import 'package:morvixa/morvixa_app.dart';
 void main() {
   testWidgets('MorvixaApp smoke test', (WidgetTester tester) async {
     await tester.pumpWidget(const MorvixaApp());
-    await tester.pump();
-    expect(find.text('Steep Timer'), findsWidgets);
+    expect(find.text('Steeping Timer'), findsOneWidget);
+    expect(find.text('COMMENCE STEEPING'), findsOneWidget);
   });
 }
